@@ -30,7 +30,7 @@ export function ContactSection() {
         <div className="flex items-center gap-4 text-lg">
           <Mail className="h-6 w-6 text-primary" />
           <a href="mailto:your.email@example.com" className="hover:text-primary transition-colors">
-            your.email@example.com
+            alijahinnovates@gmail.com
           </a>
         </div>
       </div>

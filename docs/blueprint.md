@@ -1,4 +1,4 @@
-# **App Name**: Tealfolio
+# **App Name**: Syed Alijah
 
 ## Core Features:
 
