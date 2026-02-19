@@ -1,29 +1,292 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Assignment 4</title>
-    <link rel="stylesheet" href="assignment.css">
+    <title>Weekend Learning</title>
+    <link rel="stylesheet" href="assignment.css" />
   </head>
   <body>
-    <div class="main">main
-      <div class="navbar">navbar
-        <div class="logo" >logo
-          <div class="search">search
-            <div class="options">options
-                <h4>Home</h4>
-                <h4>About Us</h4>
-                <h4>Courses</h4>
-                <h4>Contact US</h4>
-                <h4>Faq's</h4>
-              <div class="account">account</div>
+    <div class="frame">
+      <header class="header container">
+        <a class="logo" href="#">
+          <img src="img/logo.png" alt="Weekend" />
+        </a>
+
+        <div class="search">
+          <span class="search__icon"></span>
+          <span>Want to learn?</span>
+          <span class="search__tag">Explore</span>
+        </div>
+
+        <nav class="menu">
+          <a href="#">Home</a>
+          <a href="#">About us</a>
+          <a href="#">Course</a>
+          <a href="#">Contact us</a>
+          <a href="#">FAQ's</a>
+        </nav>
+
+        <div class="auth">
+          <a class="sign" href="#">Sign in</a>
+          <a class="create" href="#">Create free account</a>
+        </div>
+      </header>
+
+      <main>
+        <section class="hero container">
+          <div class="hero__left">
+            <h1>Up Your <span>Skills</span><br />To <span>Advance</span> Your<br />Career Path</h1>
+            <p>
+              Learn UI/UX Design skills with weekend UX. The latest online learning system and material that help your
+              knowledge grow.
+            </p>
+            <div class="hero__cta">
+              <a class="btn btn--solid" href="#">Get Started</a>
+              <a class="btn btn--soft" href="#">Get free trial</a>
+            </div>
+
+            <div class="hero__chips">
+              <span><i></i>Public Speaking</span>
+              <span><i></i>Career-Oriented</span>
+              <span><i></i>Creative Thinking</span>
+            </div>
+
+            <div class="hero__brands">
+              <div class="metric"><strong>250+</strong><span>Collaboration</span></div>
+              <span>duolingo</span>
+              <span>Codecov</span>
+              <span>UserTesting</span>
+              <span>magic leap</span>
+            </div>
+          </div>
+
+          <div class="hero__right">
+            <div class="hero-circle"></div>
+            <div class="hero-face"></div>
+            <div class="badge badge--left">
+              <strong>2k+</strong>
+              <span>Video Courses</span>
+            </div>
+            <div class="badge badge--top">
+              <strong>5k+</strong>
+              <span>Online Classes</span>
+            </div>
+            <div class="badge badge--bottom">
+              <strong>250+</strong>
+              <span>Tutor Experts</span>
+            </div>
+          </div>
+        </section>
+
+        <section class="services container">
+          <p class="kicker">Our Services</p>
+          <h2>Fostering a playful &amp; engaging learning environment</h2>
+
+          <div class="service-grid">
+            <article class="service service--active">
+              <h3>Interaction Design</h3>
+              <p>Lessons on design that cover the most recent developments.</p>
+              <a href="#">Learn More</a>
+            </article>
+            <article class="service">
+              <h3>UX Design Course</h3>
+              <p>Classes in development that cover the most recent advancements in web.</p>
+              <a href="#">Learn More</a>
+            </article>
+            <article class="service">
+              <h3>User Interface Design</h3>
+              <p>User interface design courses that cover the most recent trends.</p>
+              <a href="#">Learn More</a>
+            </article>
+          </div>
+
+          <div class="dots">
+            <span class="active"></span>
+            <span></span>
+            <span></span>
+          </div>
+        </section>
+
+        <section class="popular container">
+          <p class="kicker kicker--left">Explore Programs</p>
+          <h2>Our Most Popular Class</h2>
+          <p class="sub">Let's join our famous class, the knowledge provided will definitely be useful for you.</p>
+
+          <div class="class-grid">
+            <article class="class-card">
+              <div class="thumb thumb--one"></div>
+              <div class="class-body">
+                <small>Design</small>
+                <h3>Figma UI UX Design..</h3>
+                <p>Use Figma to get a job in UI Design. User Interface User Experience design.</p>
+                <div class="price-row">
+                  <span>4.8</span>
+                  <strong>$17.84</strong>
+                </div>
+              </div>
+            </article>
+
+            <article class="class-card">
+              <div class="thumb thumb--two"></div>
+              <div class="class-body">
+                <small>Design</small>
+                <h3>Learn With Shoaib</h3>
+                <p>Design interfaces and mobile apps that only look good and trends apply.</p>
+                <div class="price-row">
+                  <span>4.9</span>
+                  <strong>$8.99</strong>
+                </div>
+              </div>
+            </article>
+
+            <article class="class-card">
+              <div class="thumb thumb--three"></div>
+              <div class="class-body">
+                <small>Design</small>
+                <h3>Building User Interface..</h3>
+                <p>Learn how to apply user experience in your visual designs.</p>
+                <div class="price-row">
+                  <span>4.8</span>
+                  <strong>$11.70</strong>
+                </div>
+              </div>
+            </article>
+          </div>
+
+          <div class="dots">
+            <span class="active"></span>
+            <span></span>
+            <span></span>
+          </div>
+        </section>
+
+        <section class="heroes container">
+          <a class="program-btn" href="#">Explore All Programs</a>
+          <p class="kicker">Tutors</p>
+          <h2>Meet the Heroes</h2>
+          <p class="heroes__sub">
+            On Weekend UI/UX, instructors from all over the world instruct millions of students.<br />
+            We offer the knowledge and abilities.
+          </p>
+
+          <div class="heroes-grid">
+            <article class="hero-card-sm">
+              <div class="avatar a-one"></div>
+              <h3>Theresa Webb</h3>
+              <p class="role">Application Support Analyst</p>
+              <p class="bio">Former co-founder of Opendoor. Early staff at Spotify and Clearbit.</p>
+            </article>
+
+            <article class="hero-card-sm">
+              <div class="avatar a-two"></div>
+              <h3>Courtney Henry</h3>
+              <p class="role">Director, Undergraduate Alumni and Admissions</p>
+              <p class="bio">Ringa, Pitch, and Protocol Labs.</p>
+            </article>
+
+            <article class="hero-card-sm">
+              <div class="avatar a-three"></div>
+              <h3>Albert Flores</h3>
+              <p class="role">Career Educator</p>
+              <p class="bio">Former PM at Ledger, DocuSign and On Deck.</p>
+            </article>
+
+            <article class="hero-card-sm">
+              <div class="avatar a-four"></div>
+              <h3>Marvin McKinney</h3>
+              <p class="role">Co-Founder, Design + Developer</p>
+              <p class="bio">Former frontend dev for Linear, Coinbase, and Postscript.</p>
+            </article>
+          </div>
+        </section>
+
+        <section class="testimonial">
+          <div class="container testimonial__inner">
+            <img src="img/logo.png" alt="Weekend" />
+            <h2>Courses was fantastic! It is Master platform for those looking to start a new career, or need a refresher.</h2>
+            <div class="person">
+              <span class="person__pic"></span>
+              <strong>Jacob Jones</strong>
+              <small>Student, National University</small>
+            </div>
+          </div>
+        </section>
+
+        <section class="blogs container">
+          <h3>Our recent blogs</h3>
+
+          <div class="blog-grid">
+            <article class="blog blog--small">
+              <div class="blog__thumb bt-one"></div>
+              <div class="blog__body">
+                <small>November 16, 2014</small>
+                <h4>Three Pillars of User Delight</h4>
+                <p>Delight can be experienced viscerally, behaviorally, and reflectively.</p>
+              </div>
+            </article>
+
+            <article class="blog blog--large">
+              <div class="blog__thumb bt-two"></div>
+              <div class="blog__body">
+                <small>March 18, 2014</small>
+                <h4>Agile Development Projects and Usability</h4>
+                <p>Agile methods aim to overcome usability barriers in software development.</p>
+              </div>
+            </article>
+
+            <article class="blog blog--small">
+              <div class="blog__thumb bt-three"></div>
+              <div class="blog__body">
+                <small>September 24, 2017</small>
+                <h4>UX Mapping Methods</h4>
+                <p>Visual design principles can be applied consistently through key UX mapping methods.</p>
+              </div>
+            </article>
+          </div>
+        </section>
+      </main>
+
+      <footer class="footer">
+        <div class="container footer__inner">
+          <div class="footer__brand">
+            <img src="img/logo.png" alt="Weekend" />
+            <p>Your learning experience that create more talent in the work.</p>
+          </div>
+
+          <div class="footer__cols">
+            <div>
+              <h4>Product</h4>
+              <a href="#">Overview</a>
+              <a href="#">Features</a>
+              <a href="#">Solutions</a>
+              <a href="#">Pricing</a>
+            </div>
+            <div>
+              <h4>Company</h4>
+              <a href="#">About us</a>
+              <a href="#">Careers</a>
+              <a href="#">Press</a>
+              <a href="#">News</a>
+            </div>
+            <div>
+              <h4>Social</h4>
+              <a href="#">Twitter</a>
+              <a href="#">LinkedIn</a>
+              <a href="#">GitHub</a>
+              <a href="#">Dribbble</a>
+            </div>
+            <div>
+              <h4>Legal</h4>
+              <a href="#">Terms</a>
+              <a href="#">Privacy</a>
+              <a href="#">Cookies</a>
+              <a href="#">Contact</a>
             </div>
           </div>
         </div>
-      </div>
-      <div class="body">Body</div>
-      <div class="card">Card</div>
+        <div class="container footer__bottom">© 2022 Ed-Circle. All rights reserved.</div>
+      </footer>
     </div>
   </body>
 </html>
