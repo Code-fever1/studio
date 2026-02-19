@@ -450,6 +450,255 @@ body {
   font-size: 23px;
 }
 
+.heroes {
+  margin-top: 14px;
+  text-align: center;
+  padding-bottom: 26px;
+}
+
+.program-btn {
+  display: inline-block;
+  text-decoration: none;
+  border: 1px solid #dce2e8;
+  color: #4f596a;
+  border-radius: 4px;
+  font-size: 10px;
+  padding: 5px 9px;
+  margin-bottom: 16px;
+}
+
+.heroes h2 {
+  margin: 8px 0 8px;
+  font-size: 38px;
+}
+
+.heroes__sub {
+  margin: 0;
+  color: #9aa2af;
+  font-size: 12px;
+  line-height: 1.6;
+}
+
+.heroes-grid {
+  margin-top: 22px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+}
+
+.hero-card-sm {
+  background: #fff;
+  border: 1px solid #e9edf2;
+  border-radius: 3px;
+  padding: 16px 12px 14px;
+}
+
+.avatar {
+  width: 52px;
+  height: 52px;
+  margin: 0 auto 8px;
+  border-radius: 50%;
+  border: 3px solid #f1f3f7;
+}
+
+.a-one {
+  background: linear-gradient(135deg, #6f8ca7, #c4d4e5);
+}
+
+.a-two {
+  background: linear-gradient(135deg, #4b7a2f, #8eb26a);
+}
+
+.a-three {
+  background: linear-gradient(135deg, #946b4d, #d8b08f);
+}
+
+.a-four {
+  background: linear-gradient(135deg, #2f3237, #7d8795);
+}
+
+.hero-card-sm h3 {
+  margin: 0;
+  font-size: 14px;
+}
+
+.hero-card-sm .role {
+  margin: 6px 0 5px;
+  color: #2bbd86;
+  font-size: 10px;
+  line-height: 1.35;
+}
+
+.hero-card-sm .bio {
+  margin: 0;
+  color: #8f97a3;
+  font-size: 10px;
+  line-height: 1.45;
+}
+
+.testimonial {
+  background: #eef5f4;
+  padding: 36px 0;
+}
+
+.testimonial__inner {
+  text-align: center;
+}
+
+.testimonial img {
+  width: 44px;
+  margin: 0 auto 12px;
+}
+
+.testimonial h2 {
+  margin: 0 auto;
+  max-width: 740px;
+  font-size: 40px;
+  line-height: 1.25;
+}
+
+.person {
+  margin-top: 16px;
+}
+
+.person__pic {
+  width: 46px;
+  height: 46px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, #ffc95e, #ff6e5f);
+  display: block;
+  margin: 0 auto 6px;
+}
+
+.person strong {
+  display: block;
+  font-size: 13px;
+}
+
+.person small {
+  color: #9ca4af;
+  font-size: 10px;
+}
+
+.blogs {
+  padding: 36px 0 34px;
+}
+
+.blogs h3 {
+  margin: 0 0 14px;
+  font-size: 20px;
+}
+
+.blog-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 14px;
+}
+
+.blog {
+  display: grid;
+  gap: 10px;
+}
+
+.blog--small {
+  grid-template-columns: 150px 1fr;
+}
+
+.blog--large {
+  grid-column: 2;
+  grid-row: 1 / span 2;
+  grid-template-columns: 1fr;
+}
+
+.blog__thumb {
+  border-radius: 2px;
+  background: #d6dbe2;
+}
+
+.bt-one {
+  min-height: 104px;
+  background: linear-gradient(135deg, #c27f66, #4a5f84);
+}
+
+.bt-two {
+  min-height: 240px;
+  background: linear-gradient(135deg, #e5e5e7, #adb4bc);
+}
+
+.bt-three {
+  min-height: 104px;
+  background: linear-gradient(135deg, #8e949d, #5f6570);
+}
+
+.blog__body small {
+  color: #2bbd86;
+  font-size: 10px;
+  font-weight: 600;
+}
+
+.blog__body h4 {
+  margin: 4px 0 6px;
+  font-size: 13px;
+}
+
+.blog__body p {
+  margin: 0;
+  color: #8d95a1;
+  font-size: 10px;
+  line-height: 1.5;
+}
+
+.footer {
+  background: #101b34;
+  color: #d6deeb;
+  padding: 26px 0 10px;
+}
+
+.footer__inner {
+  display: grid;
+  grid-template-columns: 220px 1fr;
+  gap: 34px;
+}
+
+.footer__brand img {
+  width: 50px;
+}
+
+.footer__brand p {
+  margin: 12px 0 0;
+  color: #8994a9;
+  font-size: 11px;
+  line-height: 1.55;
+}
+
+.footer__cols {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 22px;
+}
+
+.footer__cols h4 {
+  margin: 0 0 8px;
+  color: #ffffff;
+  font-size: 12px;
+}
+
+.footer__cols a {
+  display: block;
+  text-decoration: none;
+  color: #90a0bb;
+  font-size: 11px;
+  margin: 5px 0;
+}
+
+.footer__bottom {
+  margin-top: 14px;
+  padding-top: 10px;
+  border-top: 1px solid rgba(255, 255, 255, 0.09);
+  color: #7d89a0;
+  font-size: 10px;
+}
+
 @media (max-width: 900px) {
   .container {
     padding: 0 12px;
@@ -477,7 +726,25 @@ body {
   }
 
   .service-grid,
-  .class-grid {
+  .class-grid,
+  .heroes-grid {
     grid-template-columns: 1fr;
+  }
+
+  .blog-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .blog--large {
+    grid-column: auto;
+    grid-row: auto;
+  }
+
+  .footer__inner {
+    grid-template-columns: 1fr;
+  }
+
+  .footer__cols {
+    grid-template-columns: repeat(2, 1fr);
   }
 }
